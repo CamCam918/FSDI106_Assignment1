@@ -1,0 +1,51 @@
+html, body{
+    padding:0;
+    margin:0;
+    background-color:lightgray;
+}
+h1{
+    color:white;
+    background-color:rgb(5,79,109);
+    text-align:center;
+
+}
+.capture-form{
+    border:1px solid black;
+    padding:20px 10px;
+    width:75%;
+    background-color:white;
+    border-radius:6px;    
+    margin:30px auto 20px auto;
+}
+.capture-form h3{
+    margin-bottom:15px;
+    text-align:center;
+    font-family:'Segoe UI', sans-serif;
+    font-weight:400;
+}
+#txtTodo{
+    width:90%
+}
+.todo-item {
+    border:1px solid blue;
+    margin:10px 50px;
+    padding:10px 30px;
+    color:#333;
+    background-color:white;
+    border-radius:5px
+}
+.todo-item:hover{
+    border-color:rgb(158,38,8);
+    color:#000;
+    box-shadow:0 2px 4px #e0e0e0;
+}
+/* h5 inside the todo-items */
+.todo-item h5{
+    display: inline-block;
+    width:90%;
+}
+button{
+    margin-top:-5px;
+}
+
+
